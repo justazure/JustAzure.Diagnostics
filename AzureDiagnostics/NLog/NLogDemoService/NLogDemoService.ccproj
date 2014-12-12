@@ -12,7 +12,7 @@
     <AssemblyName>NLogDemoService</AssemblyName>
     <StartDevelopmentStorage>True</StartDevelopmentStorage>
     <Name>NLogDemoService</Name>
-    <UseWebProjectPorts>False</UseWebProjectPorts>
+    <UseWebProjectPorts>True</UseWebProjectPorts>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
