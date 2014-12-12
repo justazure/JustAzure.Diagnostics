@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="NLogDemoService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WorkerRole name="NLogDemo.Worker" vmsize="ExtraSmall">
+    <Imports>
+      <Import moduleName="Diagnostics" />
+    </Imports>
+    <LocalResources>
+      <LocalStorage name="DiagnosticStore" cleanOnRoleRecycle="false" sizeInMB="8192" />
+      <LocalStorage name="LogStorage" cleanOnRoleRecycle="false" sizeInMB="4096" />
+    </LocalResources>
+  </WorkerRole>
+</ServiceDefinition>
